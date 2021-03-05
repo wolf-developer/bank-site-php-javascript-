@@ -1,0 +1,160 @@
+.form-pass{
+	border:none;
+	padding: 15px 0 0 0;
+	border-bottom: 1px solid #999;
+}
+.form-span{
+	width: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 0 0 0;
+	padding: 0px 156px 0 0px;
+    margin: 25px 0 0 0;
+}
+.form-span span{
+	font-size: 16px;
+}
+.span-placeholder-eff{
+	margin: -25px 0 0 0;
+	font-size: 14px!important;
+	transition: 0.5s;
+}
+.span-placeholder-eff-remove{
+	transition: 0.5s;
+}
+.form-span .pass-eye{
+	z-index: 10;
+	width: 24px;
+	height: 24px;
+	margin-left: 70%;
+}
+.pass-user{
+	margin: 10px 0 0 0;
+}
+.pass-user label{
+	font-size: 14px;
+}
+hr{
+	border-color: #ddd;
+}
+.button-text{
+	display: flex;
+	flex-direction: row;
+}
+.pass-user img{
+	margin-left: 5px;
+}
+.pass-button{
+	margin: 35px 0 0 30px;
+}
+.pass-button img{
+	margin-left: 5px;
+}
+#submitbutton{
+	width: 180px;
+	height: 50px;
+}
+.eui-label-content{
+	font-size: 14px;
+	font-weight: 400;
+}
+#password{
+	font-size: 14px;
+	font-weight: 400;
+}
+#magicZone{display: none;}
+.eye-img{
+	width: 25px;
+	height:25px;
+	margin: -3px;
+}
+.eye-img-show{
+	background-image: url("../img/eye1.png");
+}
+.eye-img-hide{
+	background-image: url("../img/eye2.png");
+}
+.form-span .span-placeholder{
+	width: 300px!important;
+	word-break: break-all;
+}
+.eui-checkbox{
+	margin: 70px 0 40px 0;
+}
+.placeholderContent{
+	margin: 45px 0 0 0;
+}
+.pass-warning{
+	display: none;
+	position: absolute;
+    top: 50px;
+	width: 42.5rem;
+	height: 50px;
+	border: 1px solid rgba(255, 0, 0, 0.11);
+	background-color: rgba(255, 0, 0, 0.1);
+}
+.pass-warning-show{
+	display: block;
+	position: absolute;
+    top: 50px;
+	width: 42.5rem;
+	height: 50px;
+	border: 1px solid rgba(255, 0, 0, 0.11);
+	background-color: rgba(255, 0, 0, 0.1);
+}
+.pass-warning .pass-warning-img img{
+	margin: 20px 0 0 30px;
+	margin: 16px 0 0 10px;
+    width: 25px;
+}
+.pass-warning .pass-warning-description{
+	margin: -32px 0 0px 80px;
+}
+.pass-warning-show .pass-warning-img img{
+	margin: 10px 0 0 10px;
+    width: 25px;
+}
+.pass-warning-show .pass-warning-description{
+	margin: -22px 0 0px 55px;
+	font-weight: bold;
+}
+.rememberLabel{
+	position: absolute;
+	top: 70px;
+}
+.o-checkbox[type=checkbox]:checked + label:after, .o-checkbox[type=checkbox]:not(:checked) + label:after{
+	position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 18px;
+    height: 18px;
+    font-family: "boosted";
+    font-size: 11px;
+    color: #f16e00;
+    text-align: center;
+    content: '\e904';
+}
+.o-checkbox[type=checkbox]:checked + label::before{
+	border-color: #f16e00;
+}
+.o-checkbox[type=checkbox]:checked + label:after{
+	background-color: white
+}
+@media screen and (max-width: 980px) {
+	.form-span{
+		width: 42.5rem;
+	}
+	.pass-warning{
+		width: 42.5rem!important;
+	}
+}
+@media screen and (max-width: 768px) {
+	.form-span{
+		width: 35.2rem;
+	}
+	.pass-warning{
+		width: 35.2rem!important;
+	}
+}
