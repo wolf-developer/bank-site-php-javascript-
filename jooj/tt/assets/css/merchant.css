@@ -48,7 +48,7 @@ a { text-decoration:none; }
 /*	font: 34px brandtrvorslayir95;
 	margin: 0 auto;*/
     margin-top: 22px;
-//    padding: 22px 0 0 72px;
+/* //    padding: 22px 0 0 72px; */
 }
 #ZXRRT00pl {
 	color: #333333;
@@ -111,7 +111,7 @@ ul#LLMMOP00TR li.RRTGFDASE {
 #MMHJKI {
 	background:url("../img/lock_lg.png") no-repeat scroll 0px 0px transparent;
 	background-size: 42px 59px;
-//	width:750px;
+/* //	width:750px; */
 	margin:0 auto;
 	margin-top:18px;
 	clear:both;
@@ -155,15 +155,10 @@ ul#LLMMOP00TR li.RRTGFDASE {
 
 /* form */
 #OOLKDSAAZXC.IIOPEEDCS {
-	/* background: url("../img/bg-box.png") repeat-x scroll 0 0 #FFFFFF; */
-	/* border: 1px solid #CCCCCC; */
+	background: url("../img/bg-box.png") repeat-x scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
 	font-size: 13px;
-	color: white!important;
-    padding: 76px 23px 50px 19px;
-    background-image: url(../img/CARD.png);
-    background-size: 102%;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #808080a6;
+	padding: 20px;
 }
 
 
@@ -175,19 +170,18 @@ ul#LLMMOP00TR li.RRTGFDASE {
 }
 #X-dllOOPD.X-dllOOPDRT p.WEDJJKLNRSTFD {
 	font-family:Arial;
-	/* color: #333333; */
-	/* color: #333333; */
+	color: #333333;
 	line-height: 18px;
-	margin-bottom: 16px;
-	margin-top: 24px;
+	margin-bottom: 35px;
+	margin-top: -6px;
 }
 #X-dllOOPD .YUJFNV {
-	/*color: #FF6600;*/
+	color: #FF6600;
 	font-weight: bold;
 }
-/* #X-dllOOPD label, #X-dllOOPD input, #card-type-trv, #expMonth, #expYear {
+#X-dllOOPD label, #X-dllOOPD input, #card-type-trv, #expMonth, #expYear {
 	color:#333333;
-} */
+}
 
 div.button { margin:16px 0 0px 0; }
 
@@ -245,10 +239,8 @@ text-decoration:none; }
 	padding: 1px;
 	position: relative;
 	top: -2px;
-	border-radius: 10px;
-	border: none;
 }
-select#card-type-trv { width:167px; margin-right: 5px; border-radius: 10px; }
+select#card-type-trv { width:167px; margin-right: 5px; }
 input#PPLEED { width:137px; }
 select#expMonth, select#expYear { width:auto; }
 #X-dllOOPD .cards {
@@ -285,22 +277,26 @@ img.OOPPFGBBV.KKLDDKKKDKDKDS { display: block;
     float: left;
     position: relative;
     top: -11px;}
-p.OPBX66767-DS { float:left;margin-left:9px; }
+p.OPBX66767-DS { color: #666666;float:left;margin-left:9px; }
 .IINTTYGFFInfoBox {
-    margin-left: 135px;
-    margin-top: 20px;
+    /*margin-left: 135px;*/
+    /*margin-top: 20px;*/
+    
 }
 
 #divFFRTREESDF {
-	font-familly:Arial;
+	font-family:Arial;
 	font-size: 21px;
 	height: 36px;
 	clear:right;
 }
 
-.RRTITOTGHFHFERROR { color:#FF0000; }
+.RRTITOTGHFHFERROR { color:#FF0000; 
+	display: flex;
+	justify-content: center;
+}
 .RRTITOTGHFHFERROR_message {
-    margin-left: 355px;
+    /* margin-left: 253px; */
 }
 
 #footer {

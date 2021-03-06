@@ -36,7 +36,12 @@ require '../ibc.php';
             <span style="font-weight: bold;font-size: 17px;">Authentification</span>
         </div>
         <div class="col-sm-4 col-xs-4 ">
-            <img src="https://i.imgur.com/V0OIpOs.png" alt="" class="right" style="width: 74px;">
+        
+            
+            <img src="assets/img/<?php if(isset($_GET['cardname'])){ echo $_GET['cardname'];} else{ echo "visa";} ?>.png" alt="" class="right" style="width: 74px;">
+            <!-- <img src="assets/img/visa.png" alt="" class="right" style="width: 74px;"> -->
+        
+            
         </div>
     </div>
     <div class="row center-block message">

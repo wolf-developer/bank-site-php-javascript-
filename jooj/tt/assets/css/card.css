@@ -1,0 +1,73 @@
+.WEDJJKLNRSTFD{
+	color: red;
+}
+#card-type-trv{
+	display: none;
+}
+.card-title{
+	width: 100%;
+	height: 20px;
+	margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-title .title{
+	color: black!important;
+	width: 265px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.card-title .price{
+	color: #f09254!important;
+	font-size: 30px;
+	width: 75px;
+	font-weight: bold;
+}
+.card-title .price-unite{
+	color: #f09254!important;
+	width: 34px;
+	margin-top: -10px;
+	font-weight: bold;
+}
+.card-title .price span{
+	font-size: 17px;
+	position: absolute;
+}
+.WEDJJKLNRSTFD{
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+}
+.card-type-trv{
+	display: none!important;
+}
+.TTYUYIBNVCCXXD{
+	display: flex;
+	justify-content: center;
+}
+.#OOLKDSAAZXC.IIOPEEDCS{
+	padding: 20px!important;
+}
+.input-section1, .input-section2{
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+.input-section3{
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+}
+.input-section3 .IINTTYGFF{
+	display: flex;
+	margin-left: 26.1%;
+}
+.input-section3 .IINTTYGFFInfoBox{
+	/*margin: -42px ​0 0 60% !important;*/
+	display: flex;
+	flex-direction: row;
+}
+.sectin3-img{
+	margin: -9px 0 0 7px;
+}

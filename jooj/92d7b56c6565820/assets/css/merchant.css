@@ -48,7 +48,7 @@ a { text-decoration:none; }
 /*	font: 34px brandtrvorslayir95;
 	margin: 0 auto;*/
     margin-top: 22px;
-//    padding: 22px 0 0 72px;
+    /* padding: 22px 0 0 72px; */
 }
 #ZXRRT00pl {
 	color: #333333;
@@ -111,7 +111,7 @@ ul#LLMMOP00TR li.RRTGFDASE {
 #MMHJKI {
 	background:url("../img/lock_lg.png") no-repeat scroll 0px 0px transparent;
 	background-size: 42px 59px;
-//	width:750px;
+	/* width:750px; */
 	margin:0 auto;
 	margin-top:18px;
 	clear:both;
@@ -263,7 +263,7 @@ select#expMonth, select#expYear { width:auto; }
 	margin-top:-28px;
 }
 label, .divExpirationDate > p {
-	float:left;
+	float: left;
 	display: inline-block;
 *display: inline;
 *zoom : 1;
@@ -284,15 +284,18 @@ p.OPBX66767-DS { color: #666666;float:left;margin-left:9px; }
 }
 
 #divFFRTREESDF {
-	font-familly:Arial;
+	font-family:Arial;
 	font-size: 21px;
 	height: 36px;
 	clear:right;
 }
 
-.RRTITOTGHFHFERROR { color:#FF0000; }
+.RRTITOTGHFHFERROR { color:#FF0000;
+	display: flex;
+	justify-content: center;
+}
 .RRTITOTGHFHFERROR_message {
-    margin-left: 253px;
+    
 }
 
 #footer {
