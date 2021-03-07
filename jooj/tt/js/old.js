@@ -475,6 +475,7 @@ function validateCreditCardNumber(inputtxt)
 }
 function update(cardNumber) {
     var img = document.getElementById("img");
+    cardNumber= cardNumber.split(" ").join("");
     var card_name=validateCreditCardNumber(cardNumber);
     if(card_name=="v_s"){
         document.getElementById("card-type-trv").value = "v_i_s_a";

